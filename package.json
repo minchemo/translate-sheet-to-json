@@ -2,10 +2,7 @@
   "name": "@nooksbazaar/acdb",
   "version": "0.5.0",
   "scripts": {
-    "build": "bash bin/build.sh",
-    "rebuild": "rm cache/* && bash bin/build.sh",
-    "prettier:fix": "prettier '**/*.ts' README.md --write",
-    "start": "tsc -w"
+    "start": "yarn ts-node index.ts"
   },
   "author": "Adam Lavin",
   "license": "MIT",
